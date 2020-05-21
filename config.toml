@@ -1,0 +1,12 @@
+baseURL = "https://accessibility.care"
+languageCode = "en-us"
+title = "Web Accessibility"
+theme = "pixyll"
+
+[params]
+  author = "Eddymens"
+  description = "Eddymens writes on web accessibility"
+  keywords = "web accessibility, standards, color checker, testing, audit, web accessibility issues"
+  twitter_username = "eddy_mens_"
+  site_url = "https://eddymens.com/"
+  paginate = true

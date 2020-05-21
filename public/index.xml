@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Web Accessibility on Web Accessibility </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://accessibility.care/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Thu, 21 May 2020 13:09:01 CEST</updated>
+    
+    <item>
+      <title>My Test post</title>
+      <link>https://accessibility.care/post/hello-world/</link>
+      <pubDate>Thu, 21 May 2020 13:09:01 CEST</pubDate>
+      
+      <guid>https://accessibility.care/post/hello-world/</guid>
+      <description>Something is coming!</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://accessibility.care/about/</link>
+      <pubDate>Sat, 08 Nov 2014 16:42:18 &#43;0400</pubDate>
+      
+      <guid>https://accessibility.care/about/</guid>
+      <description>Why am writing about accessibility.</description>
+    </item>
+    
+  </channel>
+</rss>
+
