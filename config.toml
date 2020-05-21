@@ -1,4 +1,4 @@
-baseURL = "https://accessibility.care"
+baseURL = "http://accessibility.care"
 languageCode = "en-us"
 title = "Web Accessibility"
 theme = "pixyll"
