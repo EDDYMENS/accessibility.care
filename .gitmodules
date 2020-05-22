@@ -2,6 +2,6 @@
 	path = themes/pixyll
 	url = https://github.com/EDDYMENS/accessibility-care-theme.git
 
-[submodule "hugo-theme-pixyll"]
+[submodule "hugo-theme-pixyll1"]
         path = hugo-theme-pixyll
         url = https://github.com/EDDYMENS/accessibility-care-theme.git
