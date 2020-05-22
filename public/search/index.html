@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>My Test post - Web Accessibility</title>
+  <title>Search - Web Accessibility</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Eddymens writes on web accessibility">
   <meta name="author" content="Eddymens">
   <meta name="keywords" content="web accessibility, standards, color checker, testing, audit, web accessibility issues">
-  <link rel="canonical" href="https://accessibility.care/post/hello-world/">
+  <link rel="canonical" href="https://accessibility.care/search/">
 
   
   
@@ -49,27 +49,33 @@
   <div class="post p2 p-responsive wrap" role="main">
     <div class="measure">
       <div class="post-header mb2">
-        <h1 class="py2">My Test post</h1>
-        <span class="post-meta">May 21, 2020  by Eddymens </span><br>
-        
+        <h1 class="py2">Search</h1>
       </div>
 
       <article class="post-content">
-      <p>Something is coming!</p>
+      <div>
+<link rel="stylesheet" type="text/css" href="/tipuesearch/tipuesearch.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+<script type="text/javascript" src="/tipuesearch/tipuesearch_set.js"></script>
+<script type="text/javascript" src="/tipuesearch/tipuesearch.min.js"></script>
+<script type="text/javascript" src="/tipuesearch/tipuesearch_content.js"></script>
+<script>
+$(document).ready(function() {
+     $('#tipue_search_input').tipuesearch({
+         'mode' : 'json',
+         'show': 10,
+         'newWindow': true,
+         'wholeWords': false
+     });
+});
+</script>
+<div class="span8 offset2">
+    <div id="tipue_search_content"><div id="tipue_search_loading"></div>
+</div>
+</div>
 
       </article>
-
-       
-      <p class="post-meta">Tags:&nbsp;
-        
-            
-            <a href="https://accessibility.care/tags/test">test</a>
-        
-      </p>
-       
-
-      
-
     </div>
   </div>
 </div>

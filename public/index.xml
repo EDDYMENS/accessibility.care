@@ -19,6 +19,15 @@
     </item>
     
     <item>
+      <title>Search</title>
+      <link>https://accessibility.care/search/</link>
+      <pubDate>Sun, 09 Nov 2014 13:49:44 &#43;0400</pubDate>
+      
+      <guid>https://accessibility.care/search/</guid>
+      <description>      $(document).ready(function() { $(&#39;#tipue_search_input&#39;).tipuesearch({ &#39;mode&#39; : &#39;json&#39;, &#39;show&#39;: 10, &#39;newWindow&#39;: true, &#39;wholeWords&#39;: false }); });     </description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://accessibility.care/about/</link>
       <pubDate>Sat, 08 Nov 2014 16:42:18 &#43;0400</pubDate>

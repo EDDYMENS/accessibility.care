@@ -10,3 +10,4 @@ theme = "pixyll"
   twitter_username = "eddy_mens_"
   site_url = "https://eddymens.com/"
   paginate = true
+  search_engine = true

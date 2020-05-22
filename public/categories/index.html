@@ -21,7 +21,7 @@
 
   <link rel="stylesheet" type="text/css" href="/css/combined-min.css">
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+  <link rel="stylesheet" type="text/css" href="https://accessibility.care/tipuesearch/tipuesearch.css">
 
 </head>
 <body class="">
@@ -34,7 +34,10 @@
       <nav class="site-nav right">
       <a href="https://accessibility.care/about/">About</a>
 <a href="https://accessibility.care/tags/">Tags</a>
-<a href="https://accessibility.care/contact/">Contact</a>
+<form class="navbar-search" action="https://accessibility.care/search/index.html"
+    onsubmit="return validateForm(this.elements['q'].value);">
+    <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input">
+
 </form>
 
       </nav>
